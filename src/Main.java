@@ -14,6 +14,19 @@ public class Main {
         y.setWidth();
         System.out.println("Area: " + y.getArea());
 
+        Hexagon z = new Hexagon(6, "purple", 4);
+        System.out.println("Color: " + z.getColor());
+        System.out.println("Length: " + z.getLength());
 
+        z.setLength();
+        System.out.println("Area: " + z.getArea());
+
+        Triangle a = new Triangle(3, "orange", 4, 5);
+        System.out.println("Color: " + z.getColor());
+        System.out.println("Length: " + z.getLength());
+        System.out.println("Width: " + z.getWidth());
+        z.setLength();
+
+        System.out.println("Area: " + z.getArea());
     }
 }
