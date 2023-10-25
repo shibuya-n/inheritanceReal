@@ -1,3 +1,5 @@
+import static java.lang.Math.sqrt;
+
 public class Hexagon extends Shape{
     public int length;
 
@@ -10,12 +12,12 @@ public class Hexagon extends Shape{
         return length;
     }
     public void setLength(){
-        System.out.println("How many sides are there? ");
+        System.out.println("What is the length of one side? ");
         length = Integer.parseInt(getInput());
 
     }
 
     public double getArea(){
-        return  3 * Math.sqrt(3) ;
+        return 2.59807621135 * Math.sqrt(length) ;
     }
 }

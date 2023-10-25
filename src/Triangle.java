@@ -12,19 +12,19 @@ public class Triangle extends Shape{
         return base;
     }
     public void setBase(){
-        System.out.println("How many sides are there? ");
+        System.out.println("What is the measurement of the base? ");
         base = Integer.parseInt(getInput());
 
     } public int getHeight(){
         return height;
     }
     public void setHeight(){
-        System.out.println("How many sides are there? ");
+        System.out.println("What is the height? ");
         height = Integer.parseInt(getInput());
 
     }
 
     public double getArea(){
-        return (base * height)/2;
+        return (double) (base * height) /2;
     }
 }

@@ -12,7 +12,7 @@ public class Rectangle extends Shape{
         return length;
     }
     public void setLength(){
-        System.out.println("How many sides are there? ");
+        System.out.println("What is the length? ");
         length = Integer.parseInt(getInput());
 
     }
@@ -20,7 +20,7 @@ public class Rectangle extends Shape{
         return length;
     }
     public void setWidth(){
-        System.out.println("How many sides are there? ");
+        System.out.println("What is the width? ");
         width = Integer.parseInt(getInput());
 
     }
